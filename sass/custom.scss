@@ -1,0 +1,21 @@
+$theme-colors: (
+  "custom-color": #900,
+  "body": #fcfcfc,
+  "primary": #658db5,
+  "secondary": #454545,
+  "border": #f3f3f3,
+  "danger": red,
+);
+
+$link-color:                theme-color("primary");
+
+$link-hover-color:          theme-color("secondary");
+
+$link-hover-decoration:     none;
+
+$border-color:                theme-color("border");
+
+$border-radius:               0rem;
+
+
+@import "./../node_modules/bootstrap/scss/bootstrap";
